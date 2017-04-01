@@ -1,0 +1,40 @@
+.main span {
+  clear: both;
+  display: inline-block;
+  padding-bottom: 0px;
+}
+.btn .caret {
+  margin-left: 5px;
+}
+.dropdown-menu {
+  min-width: 0px;
+}
+.table > thead > tr > th {
+  border-top: 1px solid #ddd;
+}
+@media (max-width: 768px) {
+  .main .container .row .col-sm-2 {
+    display: none;
+  }
+}
+@media (max-width: 512px) {
+  body {
+    font-size: 12px;
+  }
+  .main .container .row .col-sm-10 .table tbody tr th {
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .btn {
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .dropdown-menu > li > a {
+    padding: 3px 8px;
+    line-height: 1.42857143;
+    font-size: 12px;
+  }
+}

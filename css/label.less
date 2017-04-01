@@ -1,0 +1,51 @@
+.main{
+  h4{
+    padding: 12px 0px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #3885ae;
+  }
+  .form-horizontal{
+    padding: 20px 0px;
+    .col-sm-1 {
+      width: 7.33333333%;
+      margin-left: 1%;
+    }
+  }
+  .btn-info {
+    display: inline-block;
+    padding-right: 36px;
+  }
+  span{
+    clear: both;
+    display: block;
+  }
+  span .btn-info{
+    display: inline-block;
+    color: #3885ae;
+    background-color: #d9edf7;
+    border-color: #bee9f2;
+  }
+  span .btn {
+    margin-right: 5px;
+    position: relative;
+    text-align: left;
+    i{
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      color: #bbdbef;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .main .form-horizontal .col-sm-1 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .main span .btn-info{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
